@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:background="@mipmap/welcome"
+    andriod:orientation="vertical">
+
+    <LinearLayout
+        andriod:layout_width="match_parent"
+        andriod:layout_height="match_parent"
+        andriod:orientation="vertical"
+        andriod:paddingTop="250dp"
+        andriod:paddingLeft="30dp"
+        andriod:paddingRight="30dp"
+        andriod:layout_marginTop="70dp">
+
+        <EditText
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:hint="学工号"
+            andriod:maxLines="1"
+            andriod:textSize="20sp" />
+        <EditText
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:hint="密码"
+            andriod:maxLines="1"
+            andriod:textSize="20sp"
+            andriod:layout_marginBottom="15dp"/>
+        <Button
+            andriod:layout_width="150dp"
+            andriod:layout_height="wrap_content"
+            andriod:layout_marginTop="15dp"
+            andriod:id="@+id/login"
+            andriod:background="@drawable/btn_bg_login"
+            andriod:text="登录"
+            andriod:layout_gravity="center"
+            andriod:onClick="clicklogin"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

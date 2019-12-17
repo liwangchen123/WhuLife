@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhuLife</string>
+    <string name="title_coursenotice">Packages</string>
+    <string name="title_location">Course</string>
+    <string name="title_notifications">Notification</string>
+    <string name="title_subscription">Subscription</string>
+    <string name="display">点击成功</string>
+</resources>
